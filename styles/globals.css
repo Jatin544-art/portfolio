@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+    /* apply border color utility where appropriate */
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1 {
+    @apply font-bold;
+  }
+
+  h2 {
+    @apply font-bold;
+  }
+
+  h3 {
+    @apply font-semibold;
+  }
+
+  p {
+    @apply text-base;
+  }
+}
+
+@layer utilities {
+  /* `text-wrap: balance` is experimental — guard it so older PostCSS
+     or build tools that don't understand the property ignore it. */
+  @supports (text-wrap: balance) {
+    .text-balance {
+      text-wrap: balance;
+    }
+  }
+}
