@@ -67,8 +67,12 @@ export const techStack = {
   frontend: ["React", "Next.js", "Tailwind CSS", "Spline", "Framer"],
   backend: ["Node.js", "Express.js", "REST APIs", "JWT"],
   databases: ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
-  ai: ["Machine Learning", "OpenCV", "Arduino", "IoT"],
-  tools: ["Git", "Docker", "VS Code", "Postman", "Figma", "Canva", "AWS", "Vercel"]
+  ai: ["Machine Learning", "Deep Learning", "TensorFlow", "PyTorch", "Computer Vision", "NLP", "OpenCV", "Arduino", "IoT"],
+  devops: ["Linux", "GitHub", "CI/CD", "Netlify", "Render", "Railway", "Kubernetes", "Nginx", "AWS", "Vercel", "Docker"],
+  mobile: ["React Native", "Flutter"],
+  csCore: ["CS Fundamentals", "Data Structures", "Algorithms", "OOP", "DBMS", "OS", "CN"],
+  designAnimation: ["GSAP", "Three.js", "Motion / Framer Motion", "ShadCN UI", "Figma", "Canva"],
+  tools: ["Git", "VS Code", "Postman"]
 }
 
 export const certificates = [

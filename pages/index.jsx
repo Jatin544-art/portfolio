@@ -98,7 +98,7 @@ export default function Home() {
                   </div>
                   <div className="flex justify-between items-center bg-white/5 border border-white/10 rounded-xl p-4 hover:bg-white/10 transition-all">
                     <span className="text-white/60 text-sm">Tech Skills</span>
-                    <span className="text-white font-bold text-2xl">30+</span>
+                    <span className="text-white font-bold text-2xl">50+</span>
                   </div>
                   <div className="flex justify-between items-center bg-white/5 border border-white/10 rounded-xl p-4 hover:bg-white/10 transition-all">
                     <span className="text-white/60 text-sm">Certifications</span>

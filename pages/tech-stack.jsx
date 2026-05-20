@@ -1,15 +1,19 @@
 import Head from 'next/head'
-import { Code2, Database, Wrench, Server, Cpu, Monitor, ArrowLeft } from 'lucide-react'
+import { Code2, Database, Wrench, Server, Cpu, Monitor, ArrowLeft, Cloud, Smartphone, Palette, Brain } from 'lucide-react'
 import Link from 'next/link'
 import { NAME, techStack } from '../data/portfolioData'
 
 const categories = [
-  { key: 'languages', label: 'Languages', icon: Code2, color: 'from-yellow-400 to-orange-500', glow: 'rgba(250,204,21,0.3)' },
-  { key: 'frontend', label: 'Frontend', icon: Monitor, color: 'from-pink-400 to-rose-500', glow: 'rgba(244,114,182,0.3)' },
-  { key: 'backend', label: 'Backend', icon: Server, color: 'from-green-400 to-emerald-500', glow: 'rgba(74,222,128,0.3)' },
-  { key: 'databases', label: 'Databases', icon: Database, color: 'from-blue-400 to-cyan-500', glow: 'rgba(96,165,250,0.3)' },
-  { key: 'ai', label: 'AI / IoT', icon: Cpu, color: 'from-purple-400 to-violet-500', glow: 'rgba(192,132,252,0.3)' },
-  { key: 'tools', label: 'Tools & Platforms', icon: Wrench, color: 'from-orange-400 to-red-500', glow: 'rgba(251,146,60,0.3)' },
+  { key: 'languages', label: 'Languages', icon: Code2, color: 'from-yellow-400 to-orange-500', glow: 'rgba(250,204,21,0.2)' },
+  { key: 'frontend', label: 'Frontend', icon: Monitor, color: 'from-pink-400 to-rose-500', glow: 'rgba(244,114,182,0.2)' },
+  { key: 'backend', label: 'Backend', icon: Server, color: 'from-green-400 to-emerald-500', glow: 'rgba(74,222,128,0.2)' },
+  { key: 'databases', label: 'Databases', icon: Database, color: 'from-blue-400 to-cyan-500', glow: 'rgba(96,165,250,0.2)' },
+  { key: 'mobile', label: 'Mobile / Cross Platform', icon: Smartphone, color: 'from-teal-400 to-cyan-500', glow: 'rgba(45,212,191,0.2)' },
+  { key: 'ai', label: 'AI & Machine Learning', icon: Cpu, color: 'from-purple-400 to-violet-500', glow: 'rgba(192,132,252,0.2)' },
+  { key: 'devops', label: 'Cloud / DevOps', icon: Cloud, color: 'from-sky-400 to-indigo-500', glow: 'rgba(56,189,248,0.2)' },
+  { key: 'designAnimation', label: 'UI/UX & Animation', icon: Palette, color: 'from-fuchsia-400 to-pink-500', glow: 'rgba(232,121,249,0.2)' },
+  { key: 'csCore', label: 'CS Core & Problem Solving', icon: Brain, color: 'from-rose-400 to-red-500', glow: 'rgba(251,113,133,0.2)' },
+  { key: 'tools', label: 'Tools & Platforms', icon: Wrench, color: 'from-orange-400 to-amber-500', glow: 'rgba(251,146,60,0.2)' },
 ]
 
 export default function TechStack() {
